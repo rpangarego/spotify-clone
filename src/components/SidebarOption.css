@@ -1,0 +1,33 @@
+.sidebarOption{
+   display:flex;
+   align-items: center;
+
+   color: grey;
+   height: 40px;
+   cursor: pointer;
+   transition: 200ms color ease-in;
+}
+
+.sidebarOption:hover{
+   color:white;
+}
+
+.sidebarOption__icon {
+   padding: 0 10px;
+}
+
+.sidebarOption > svg.MuiSvgIcon-root.sidebarOption__icon {
+   width: 2em !important;
+}
+
+.sidebarOption > h4 {
+   font-weight: 500;
+}
+
+.sidebarOption > p {
+   margin-top: 10px;
+   margin-left: 15px;
+   font-size: 14px;
+   font-weight: 500;
+}
+

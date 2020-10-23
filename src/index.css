@@ -1,7 +1,18 @@
+body::-webkit-scrollbar {
+   display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+}
+
 *{
    margin:0;
+   box-sizing: border-box;
 }
 
 body{
-   font-family: Montserrat, sans-serif;
+   font-family: "CircularSpotifyTxT-Black", Montserrat, sans-serif ;
+   font-style: normal;
+   font-weight: 700;
+   font-stretch: 100;
+   
+   -ms-overflow-style: none;  /* IE and Edge */
+   scrollbar-width: none;  /* Firefox */
 }
